@@ -1,0 +1,22 @@
+doctype html
+html(lang="en" ng-app='jj')
+head
+  meta(charset="UTF-8")
+  title jjir
+  link(rel="stylesheet", href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+  link(rel="stylesheet", href="style.css")
+body
+  //Angular View
+  #content(ng-view)
+
+
+
+//Project Dependencies
+script(src='bower_components/angular/angular.js')
+script(src='bower_components/angular-route/angular-route.min.js')
+script(src='bower_components/jquery/dist/jquery.js')
+script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+
+//Angular Files
+script(src='index.js')
+script(src='home/home.js')
