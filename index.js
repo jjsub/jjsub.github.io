@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  var index = angular.module('dave', ['ngRoute']);
+  var index = angular.module('jj', ['ngRoute']);
 
   //Angular Routes
   index.config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider){
