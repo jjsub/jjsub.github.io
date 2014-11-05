@@ -29,7 +29,7 @@ TAG BOOTSTRAP OVERRIDES
 }
 .name {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   margin-top: 30px;
   text-align: center;
   padding: 20px;
@@ -41,16 +41,25 @@ TAG BOOTSTRAP OVERRIDES
   background-size: cover;
   background-position: center;
 }
+.projects {
+  font-size: 2em;
+  color: white;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  text-align: center;
+  padding: 20px;
+}
 .photo {
-  border: 1px solid black;
-  height: 300px;
+  border: 1px solid white;
+  height: 220px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .description {
   border: 1px solid white;
-  height: 200px;
+  height: 100px;
   font-size: 20px;
   padding: 10px;
   text-align: left;
