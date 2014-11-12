@@ -8,4 +8,15 @@
     .when('/', {templateUrl:'home/home.html', controller:'HomeCtrl'})
     .otherwise({redirectTo:'/'});
   }]);
+
+  index.controller('IndexCtrl', ['$scope', function($scope){
+    $scope.scroll = function(id){
+      console.log('stuff');
+     var $root = $('html, body');
+       $root.animate({
+       scrollTop: $('#' + id).offset().top
+      }, 500);
+    };
+
+  }]);
 })();

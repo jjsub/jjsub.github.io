@@ -11,14 +11,19 @@ TAG BOOTSTRAP OVERRIDES
 ------------------------------------------*/
 .navbar,
 .navbar-defoult {
-  margin: 0px 30px 0px 10px;
   width: 100%;
   z-index: 99;
   position: fixed;
+  background-color: #000000;
+  border: 0px;
+}
+ul.nav.navbar-nav.navbar-right a,
+.navbar-brand {
+  color: white;
 }
 .container-fluid {
   height: 100%;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 0px 0px 0px;
 }
 #content1 {
   height: 100%;
@@ -73,7 +78,7 @@ TAG BOOTSTRAP OVERRIDES
   color: white;
 }
 #content3 {
-  padding: 20px;
+  padding: 0px;
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
@@ -85,7 +90,7 @@ TAG BOOTSTRAP OVERRIDES
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 5px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
 }
 .skills-details {
   background-color: #19A3FF;
@@ -109,4 +114,16 @@ TAG BOOTSTRAP OVERRIDES
 }
 .imgContainer {
   height: 50px;
+}
+#footer {
+  height: 20px;
+}
+.footerText {
+  text-align: center;
+}
+.footerText a {
+  margin-right: 20px;
+}
+.footerText p {
+  margin-top: 10px;
 }
