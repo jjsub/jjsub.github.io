@@ -2,46 +2,11 @@
   .row
     .col-xs-12
       .name 
-        p.animated.fadeInUp Juan Job 
+        p juan job
+      p#left web developer
+      p#right software ingeneer
 
 //a(href="http://jjsub.github.io/flappy/"): .photo(style="background-image: url('../assets/flappy.png');")
-
-#content2(name='projects')
-  .row
-    .col-xs-12
-      .projects
-        p Projects 프로젝트들 
-
-      .row
-        .col-sm-4
-          .photo(style="background-image: url('../assets/visaport1.png')")
-          .description
-            p World visa require.
-            a(href="http://www.github.com/jjsub/visaport") Github
-            a.margin-left(href="http://www.port.juanjob.info") Visaport
-        
-        .col-sm-4
-          .photo(style="background-image: url('../assets/flappy.png');")
-          .description
-            p Phaser Game
-            a(href="http://www.github.com/jjsub/flappy") Github
-        
-        .col-sm-4
-          .photo
-          .description
-
-
-      .row
-        .col-sm-4 4
-          .photo
-          .description
-        .col-sm-4 5
-          .photo
-          .description
-        .col-sm-4 6
-          .photo
-          .description
-
 
 
 
@@ -51,79 +16,65 @@
       p Skills
 
     .row.centerRow
-      .col-xs-4.center
-        .imgContainer
-          img.icons(src="assets/node.png", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/css3.jpeg", alt="node" )
-        .imgContainer
           
           
-      .col-xs-4.increaseLine.center
-          p Node.js
-          p Angular.js
-          p Javascript 
-          p MondoDB
-          p Phaser.js
-          p Express.js
-          p HTML
-          p CSS
-          p Jade
-          p Less
-          p Vim
-          p Atom
-          p Sublime Text
-          p Photoshop
-      
-      .col-xs-4.center
-        .imgContainer
-          
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
-        .imgContainer
-        .imgContainer
-          img.icons(src="assets/angularjs.png", alt="Angular" )
+      .col-xs-12.increaseLine
+          p  Javascript | Angular.js | Node.js | MondoDB | Hapi.js | Express.js
+          p HTML | Jade | CSS |  Less | Git | Grunt | AWS
+          p Python | Java | SQL
+          p Vim | Atom | Sublime Text | bracket
+          p Adobe Photoshop | Adobe Premier
 
+#content2(name='projects')
+  .row
+    .col-xs-12
+      .projects
+        p Projects
+
+      .row.projectWindow
+        .col-sm-4
+          a.photo(href='http://port.juanjob.info')
+            img.photo(src='../assets/visaport1.png')
+          .description
+            p World visa require.
+            a(href="http://www.github.com/jjsub/visaport") Github
+            a.margin-left(href="http:/port.juanjob.info") Visaport
+        
+        .col-sm-4
+          .photo(style="background-image: url('../assets/flappy.png');")
+          .description
+            p Phaser Game
+            a.margin-left(href="http://jjsub.github.io/flappy/") Flappy Cupcake
+            a(href="http://www.github.com/jjsub/flappy") Github
+            
+        .col-sm-4
+          .photo(style="background-image: url('../assets/hackNashville.jpg');")
+          .description
+            p Hack Nashville 6
+            a.margin-left(href="http://jjsub.github.io/flappy/") Twitter Cupcake
+            a(href="http://www.github.com/jjsub/flappy") Github
+
+
+      //.row
+        //.col-sm-4 3
+          //.photo
+          //.description
+        //.col-sm-4 4
+          //.photo
+          //.description
+
+
+
+                         //FOOTER//
 
 #footer
   .row
     .col-xs-4
     .col-xs-4.footerText 
       a(href="http://www.github.com/jjsub"): i.fa.fa-github.fa-3x
-      a(href="https://medium.com/@JuanJob"): i.fa.fa-wordpress.fa-3x 
+      //a(href="https://medium.com/@JuanJob"): i.fa.fa-wordpress.fa-3x 
       a(href="http://www.linkedin.com/pub/juan-job-rodriguez/80/552/7a3/"): i.fa.fa-linkedin-square.fa-3x
 
 
-      p Copyright Juan Job 2014 
+      p Copyright Juan Job 2015 
     .col-xs-4

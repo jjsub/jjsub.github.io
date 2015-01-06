@@ -1,5 +1,6 @@
 doctype html
 html(lang="en" ng-app='jj')
+
 head
   meta(charset="UTF-8")
   title jjir
@@ -7,17 +8,17 @@ head
   link(rel="stylesheet", href="bower_components/fontawesome/css/font-awesome.css")
   link(rel="stylesheet", href="assets/css/animate.css")
   link(rel="stylesheet", href="style.css")
+
 body(ng-controller='IndexCtrl')
   
   include nav.jade 
   .container-fluid(ng-view)
 
-
-
 //Project Dependencies
 script(src='bower_components/angular/angular.js')
 script(src='bower_components/angular-route/angular-route.min.js')
 script(src='bower_components/jquery/dist/jquery.js')
+script(src='bower_components/jquery-waypoints/waypoints.min.js')
 script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
 
 //Angular Files

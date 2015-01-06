@@ -11,63 +11,91 @@ TAG BOOTSTRAP OVERRIDES
 ------------------------------------------*/
 .navbar,
 .navbar-defoult {
+  height: auto;
   width: 100%;
-  z-index: 99;
+  z-index: 10;
   position: fixed;
-  background-color: #000000;
+  background-color: white;
   border: 0px;
+  border-bottom: 1px solid;
+  border-top: 1px solid gray;
+  border-bottom-color: gray;
+  text-align: center;
 }
-ul.nav.navbar-nav.navbar-right a,
+.navbar.navbar-default {
+  text-align: center;
+  float: left;
+}
+.navbar {
+  border-radius: 0px;
+  text-align: center;
+}
+ul.nav.navbar-nav a,
 .navbar-brand {
-  color: white;
+  color: gray;
+  font-size: 18px;
+  text-align: center;
 }
 .container-fluid {
   height: 100%;
   padding: 0px 0px 0px 0px;
 }
 #content1 {
-  height: 100%;
-  background-image: url('assets/china1.jpg');
+  height: 55%;
+  background-image: url('assets/blackSky.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-}
-.margin-left {
-  margin-left: 20px;
-}
-.name p {
-  font-size: 3em;
-  color: white;
 }
 .name {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
   margin-top: 30px;
   text-align: center;
   padding: 20px;
 }
+p#left {
+  text-align: left;
+  margin: 0% 0% 0% 15%;
+  color: white;
+  font-size: 2.5em;
+}
+P#right {
+  text-align: right;
+  margin: 0px 100px 0px 0px;
+  color: white;
+  font-size: 2.5em;
+}
+.name p {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+}
 #content2 {
   padding: 20px;
-  background-image: url('assets/background.png');
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
 }
 .projects {
   font-size: 2em;
-  color: white;
+  color: gray;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  height: 80px;
   margin-top: 5px;
   text-align: center;
-  padding: 20px;
+  padding: 30px 0px 100px 0px;
+  font-weight: bold;
 }
 .photo {
-  border: 1px solid white;
+  border: 1px solid gray;
   height: 220px;
+  width: 280px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.margin-left {
+  margin-left: 20px;
 }
 .description {
   border: 1px solid white;
@@ -85,15 +113,16 @@ ul.nav.navbar-nav.navbar-right a,
 }
 .skills {
   font-size: 2em;
-  color: white;
+  color: gray;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  margin-top: 5px;
+  height: 20%;
   text-align: center;
-  padding: 40px;
+  padding: 45px 0px 20px 0px;
+  margin: 0px;
+  font-weight: bold;
 }
 .skills-details {
-  background-color: #19A3FF;
+  background-color: white;
 }
 .icons {
   width: 50px;
@@ -111,6 +140,8 @@ ul.nav.navbar-nav.navbar-right a,
 }
 .increaseLine {
   line-height: 40px;
+  text-align: center;
+  font-size: 17px;
 }
 .imgContainer {
   height: 50px;
