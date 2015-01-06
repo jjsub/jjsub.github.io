@@ -22,6 +22,14 @@ TAG BOOTSTRAP OVERRIDES
   border-bottom-color: gray;
   text-align: center;
 }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
 .navbar.navbar-default {
   text-align: center;
   float: left;
@@ -33,7 +41,7 @@ TAG BOOTSTRAP OVERRIDES
 ul.nav.navbar-nav a,
 .navbar-brand {
   color: gray;
-  font-size: 18px;
+  font-size: 30px;
   text-align: center;
 }
 .container-fluid {
@@ -41,11 +49,12 @@ ul.nav.navbar-nav a,
   padding: 0px 0px 0px 0px;
 }
 #content1 {
-  height: 55%;
+  height: 80%;
   background-image: url('assets/blackSky.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  background-size: cover;
 }
 .name {
   width: 100%;
@@ -135,9 +144,6 @@ P#right {
   text-align: center;
   font-size: 1.4em;
   color: white;
-}
-.centerRow {
-  padding: 10px 0px 10px 0px;
 }
 .increaseLine {
   line-height: 40px;
