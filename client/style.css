@@ -120,38 +120,31 @@ P#right {
   margin-left: 3px;
 }
 .buttons {
-  margin: 10px auto;
+  margin: 10px auto 10px 60px;
   padding: 15px;
 }
 .buttons > a {
-  margin: 30px;
+  margin: 25px;
   padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: gray;
 }
 #nash6 {
   background-image: url('assets/poster.png');
-  width: 350px;
-  height: 200px;
+  width: 355px;
+  height: 230px;
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 3px;
   background-position: center;
 }
-#nash6 a {
-  margin: 20px;
-  color: #444444;
-}
-#nash6 a:hover {
-  colour: red;
-  text-decoration: none;
-  color: green;
-}
-.bottonsHN6 {
-  padding: 15px;
-  margin: 10px auto;
-}
-.bottonsHN6 > a {
-  margin: 30px;
+.buttonsHN6 a {
+  margin: 25px;
   padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: gray;
 }
 .photo {
   border: 1px solid gray;
