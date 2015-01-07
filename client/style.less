@@ -16,7 +16,7 @@ TAG BOOTSTRAP OVERRIDES
   width: 100%;
   z-index: 10;
   position: fixed;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.95);
   border:0px;
   border-bottom: 1px solid;
   border-top: 1px solid gray;
@@ -63,13 +63,22 @@ ul.nav.navbar-nav a, .navbar-brand{
 }
 
 #content1{
-  height: 80%;
-  background-image: url('assets/blackSky.jpg');
+  height: 200px;
+  //background-image: url('assets/blackSky.jpg');
   background-repeat: no-repeat;
   //position: fixed;
   background-size: 100%;
   background-position: center;
     background-size: cover;
+}
+#pic{
+background-image: url('assets/pic.jpg');
+margin: 95px 0px 0px 50px;
+width: 930px;
+height: 235px;
+background-size: contain;
+border-radius: 20px;
+//background-repeat: no-repeat;
 }
 
 .name{
@@ -121,9 +130,63 @@ P#right{
 }
 .projectWindow{
   //background-color: rgba(0, 0, 0, 0.2);
-    
-
 }
+
+.box{
+  margin: 30px;
+  border: 2px solid lighten(gray, 40%);
+  padding: 30px;
+  width: 440px;
+  height: 480px;
+  background-color:lighten(gray, 40%);
+}
+
+#visaport{
+    background-image: url('assets/visaport1.png');
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.buttons{
+  margin: 10px auto;
+  padding: 15px;
+}
+.buttons > a{ 
+    margin: 30px;
+    padding: 10px;
+}
+
+#nash6{
+
+  background-image: url('assets/poster.png');
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+  background-position: center;
+  a {
+    margin: 20px;
+    color: darken(#AAAAAA, 40%);
+  }
+  a:hover{
+    colour: red;
+    text-decoration: none;
+    color: green;
+  }
+}
+.bottonsHN6{
+  padding: 15px;
+   margin: 10px auto;
+}
+
+.bottonsHN6 > a{
+    margin: 30px;
+    padding: 10px;
+}
+
 .photo {
   border: 1px solid gray;
   height: 220px;

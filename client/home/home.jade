@@ -1,10 +1,10 @@
 #content1
   .row
-    .col-xs-12
-      .name 
-        p juan job
-      p#left web developer
-      p#right software ingeneer
+    .col-sm-1
+    .col-sm-5
+      #pic
+    .col-sm-1
+      
 
 //a(href="http://jjsub.github.io/flappy/"): .photo(style="background-image: url('../assets/flappy.png');")
 
@@ -12,13 +12,14 @@
 
 #content3(name='skills')
   .row.skills-details
-    .skills
+    
+    .col-sm-12.skills
       p Skills
 
     .row.centerRow
           
           
-      .col-xs-12.increaseLine
+      .col-sm-12.increaseLine
           p  Javascript | Angular.js | Node.js | MondoDB | Hapi.js | Express.js
           p HTML | Jade | CSS |  Less | Git | Grunt | AWS
           p Python | Java | SQL
@@ -31,29 +32,30 @@
       .projects
         p Projects
 
-      .row.projectWindow
-        .col-sm-4
-          a.photo(href='http://port.juanjob.info')
-            img.photo(src='../assets/visaport1.png')
-          .description
-            p World visa require.
-            a(href="http://www.github.com/jjsub/visaport") Github
-           
-        
-        .col-sm-4
-          a.photo(href='http://jjsub.github.io/flappy/')
-            img.photo(src='../assets/flappy.png')
-          .description
-            p Phaser Game
-            a.margin-left(href="http://jjsub.github.io/flappy/") Flappy Cupcake
-            a(href="http://www.github.com/jjsub/flappy") Github
-            
-        .col-sm-4
-          .photo(style="background-image: url('../assets/hackNashville.jpg');")
-          .description
-            p Hack Nashville 6
-            a.margin-left(href="https://twitter.com/hacknashville/status/531830768646250496") Twitter
-            a(href="http://southernalpha.com/went-undercover-hack-nashville-year-ended-winning-team/") Team work to the 300%
+      .row
+        .col-sm-1
+    .col-sm-5
+      .box
+        h3 VisaPort
+        h5 description.
+        h5 note
+        #visaport: a(href='http://port.juanjob.info', target='_blank')
+        .buttons
+          a(href='https://github.com/jjsub/visaport', target='_blank').fa.fa-github.fa.fa-3x
+          a(href='http://port.juanjob.info', target='_blank').fa.fa-play.fa.fa-3x
+    .col-sm-5
+      .box
+        h3 Hack Danceville
+        h5 description
+        h5 1rd place HackNashville6 Project
+        #nash6: a(href='https://github.com/wgaggioli/hackdanceville6')
+        .buttonsHN6
+          a(href='https://github.com/wgaggioli/hackdanceville6', target='_blank').fa.fa-github.fa.fa-3x
+          a(href='', target='_blank') tiwtter
+          a(href='https://play.google.com/store/apps/details?id=com.ionicframework.gpnashvestn202992', target='_blank') blog
+    .col-sm-1
+      
+      
 
 
       //.row

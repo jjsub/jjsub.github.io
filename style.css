@@ -15,7 +15,7 @@ TAG BOOTSTRAP OVERRIDES
   width: 100%;
   z-index: 10;
   position: fixed;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.95);
   border: 0px;
   border-bottom: 1px solid;
   border-top: 1px solid gray;
@@ -49,12 +49,19 @@ ul.nav.navbar-nav a,
   padding: 0px 0px 0px 0px;
 }
 #content1 {
-  height: 80%;
-  background-image: url('assets/blackSky.jpg');
+  height: 200px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   background-size: cover;
+}
+#pic {
+  background-image: url('assets/pic.jpg');
+  margin: 95px 0px 0px 50px;
+  width: 930px;
+  height: 235px;
+  background-size: contain;
+  border-radius: 20px;
 }
 .name {
   width: 100%;
@@ -94,6 +101,56 @@ P#right {
   text-align: center;
   padding: 30px 0px 100px 0px;
   font-weight: bold;
+}
+.box {
+  margin: 30px;
+  border: 2px solid #e6e6e6;
+  padding: 30px;
+  width: 440px;
+  height: 480px;
+  background-color: #e6e6e6;
+}
+#visaport {
+  background-image: url('assets/visaport1.png');
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.buttons {
+  margin: 10px auto;
+  padding: 15px;
+}
+.buttons > a {
+  margin: 30px;
+  padding: 10px;
+}
+#nash6 {
+  background-image: url('assets/poster.png');
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+  background-position: center;
+}
+#nash6 a {
+  margin: 20px;
+  color: #444444;
+}
+#nash6 a:hover {
+  colour: red;
+  text-decoration: none;
+  color: green;
+}
+.bottonsHN6 {
+  padding: 15px;
+  margin: 10px auto;
+}
+.bottonsHN6 > a {
+  margin: 30px;
+  padding: 10px;
 }
 .photo {
   border: 1px solid gray;
