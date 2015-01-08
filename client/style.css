@@ -64,34 +64,22 @@ ul.nav.navbar-nav a,
   background-size: contain;
   border-radius: 20px;
 }
-.name {
-  width: 100%;
-  margin-top: 30px;
+.objective {
+  margin: 30px;
+  font-size: 22px;
+  color: gray;
   text-align: center;
-  padding: 20px;
-}
-p#left {
-  text-align: left;
-  margin: 0% 0% 0% 15%;
-  color: white;
-  font-size: 2.5em;
-}
-P#right {
-  text-align: right;
-  margin: 0px 100px 0px 0px;
-  color: white;
-  font-size: 2.5em;
-}
-.name p {
-  font-size: 3em;
-  color: white;
-  text-align: center;
+  font-style: italic;
+  margin: 0px 2% 0px 0px;
 }
 #content2 {
   padding: 20px;
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
+}
+h3 {
+  text-align: center;
 }
 .projects {
   font-size: 2.1em;
@@ -145,6 +133,26 @@ P#right {
   text-decoration: none;
   text-align: center;
   color: gray;
+}
+#flappy {
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.imgFlappy {
+  margin: 10px auto 10px 17%;
+}
+#collectivist {
+  width: 350px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.imgCollec {
+  margin: 15px;
 }
 .photo {
   border: 1px solid gray;
