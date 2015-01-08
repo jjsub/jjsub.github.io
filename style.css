@@ -58,7 +58,7 @@ ul.nav.navbar-nav a,
 #pic {
   background-image: url('assets/pic.jpg');
   margin: 95px 0px 0px 50px;
-  width: 930px;
+  width: 90%;
   height: 235px;
   background-size: contain;
   border-radius: 20px;
