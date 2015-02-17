@@ -1,0 +1,8 @@
+$baseColor: rgb(50,100,175);
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: lighten($baseColor, 50%);
+  border: 1px solid darken($baseColor, 10%);
+  color: $baseColor;
+}
