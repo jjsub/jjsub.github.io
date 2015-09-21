@@ -4,7 +4,7 @@
 
 Example: 
 
-||||-  = 5 days a of cofing 
+||||-  = 5 days a of coding; 
 
 ||||- ||||- ||||- ||||- ||||-
 ||||- ||   
