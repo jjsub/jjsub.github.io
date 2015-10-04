@@ -1,0 +1,134 @@
+/*************** 
+   Header
+***************/
+
+#header-div{
+  background-color: #ee3c3c;
+  background : url(../assets/redbkgd1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit : cover;
+  width: 100%;
+  height: 16em;
+}
+
+#logo{
+  margin: 0px auto;
+}
+
+/*************** 
+   Section
+***************/
+
+#content{
+  background-color: black;
+
+}
+
+#video1{
+  background-color: #ee3c3c
+}
+
+#video2{
+  background-color: black;
+}
+
+.text{
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  margin: 0px 0px 21px 0px;
+}
+
+.date-time{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 3em;
+  letter-spacing: 0.06em;
+  /*font-weight: ;*/
+}
+
+.name{
+    color: red;
+    margin-top: 3px;
+    margin-bottom: 0.7em;
+    letter-spacing: 0.05em;
+    font-size: 3em;
+}
+
+a.link{
+  color: red;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.video-margin{
+
+  margin: 3em 0em;
+}
+/*************** 
+   Footer
+***************/
+
+footer{
+  background-color: black;
+  text-align: center;
+  font-size: 9px;
+}
+
+i#logo{
+  background : url(../assets/PITC_logo.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.tonto{
+  color: #ee3c3c;
+}
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+/*************** 
+   Media Query
+***************/
+
+@media screen and (max-width: 768px) {
+  .date-time{
+     margin-top: 12em;
+  }
+ }
+@media screen and (min-width: 768px) {
+  .date-time{
+    margin-top: 3em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #s-b-img{
+     margin-top: 27em;
+  }
+}
+
+
+/*.container {
+     padding-right: 0;
+     padding-left: 0; 
+     margin-right: auto;
+     margin-left: auto;
+}
+*/
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}

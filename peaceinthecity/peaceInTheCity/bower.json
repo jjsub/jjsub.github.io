@@ -1,0 +1,13 @@
+{
+  "name": "peaceInTheCity",
+  "version": "0.0.1",
+  "authors": [
+    "jjsub <jsamesub@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "peace"
+  ],
+  "license": "MIT",
+  "homepage": "http://peaceinthe.city"
+}
