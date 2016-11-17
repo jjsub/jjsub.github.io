@@ -1,4 +1,547 @@
-<!DOCTYPE html><html lang="en" ng-app="jj"></html><head><meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"><title>Juan Job</title><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css"><link rel="stylesheet" href="assets/css/animate.css"><link rel="stylesheet" href="style.css"></head><body ng-controller="IndexCtrl"><div role="navigation" class="navbar navbar-default"><div id="navigation" class="container"><div class="navbar-header"><button data-toggle="collapse" data-target="#bs-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><!--.navbar-brand(style='display: none')--></div><div id="bs-navbar-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav"><!--li: a(href='/#/') About--><li><a href="" ng-click="scroll(&quot;content3&quot;)">Skills</a></li><li><a href="" ng-click="scroll(&quot;content2&quot;)">Projects</a></li><li><a href="assets/JuanJobRodriguezCV_2015.pdf">Résumé</a></li><!--li: a(href='http://jjsub.github.io/flappy/' target='_blank') Games-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Juan Job Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">FrontEnd Developer</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio"> Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive img-circle" src="img/profile-picture.jpg" alt="jjir">
+                    <div class="intro-text">
+                        <span class="name">Juan Job Rodriguez</span>
+                        <hr class="star-light">
+                        <span class="skills">Web Developer - Mobile apps - UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                                <!-- <p>Title</p> -->
+
+                            </div>
+                        </div>
+                        <!-- <div class="img-responsive" style="height: 260px; width: 360px; background-color: black; "></div> -->
+                        <img src="img/portfolio/EVIDENCEcare.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/GROUPS360.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/PAULTRIPP.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/VISAport.png" class="img-responsive" alt="Visa port files">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/FLAPPYCUPCAKE.png" class="img-responsive" alt=" Flappy Cupcake game">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="about-text">"Hello world!"​ I am a Frontend development located in Nashville, Tennessee. I specialize in UI/UX, and I am dedicated to helping my clients big and small fulfill their vision for their responsive website and mobile apps. I code with React.js, Angular.js, HTML5, CSS3 and SASS/LESS, full-stack in JavaScript (MEAN), and more. This website is a sample of the projects that I have worked on over the last two years.  </p>
+                </div>
+                <!-- <div class="col-lg-4"> -->
+                    <!-- <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p> -->
+                <!-- </div> -->
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a target="_blank" href="JuanJobRodriguezCV__2016.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-address-card-o"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+          <!-- Footer -->
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-10 col-lg-offset-1 text-center">
+                          <!-- <h4 style="color: #777777;"><strong>Start Bootstrap</strong> -->
+                          <!-- </h4> -->
+                          <p style="color: #777777;">
+                              <br>Nashville, TN 37205</p>
+                          <ul class="list-unstyled">
+                              <!-- <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li> -->
+                              <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:juanjobdev@gmail.com">juanjobdev@gmail.com ✉️ </a>
+                              </li>
+                          </ul>
+                          <br>
+                          <ul class="list-inline">
+                              <li>
+                                  <a target="_blank" href="https://www.linkedin.com/in/juan-job-rodriguez-7a355280"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                              </li>
+                              <li>
+                                  <a target="_blank" href="https://twitter.com/JuanJob11"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                              </li>
+                              <li>
+                                  <a target="_blank" href="https://www.instagram.com/juanjob11/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                              </li>
+                          </ul>
+                          <!-- <hr class="small">
+                          <p class="text-muted">Copyright &copy; Juan Job R. 2016</p> -->
+                      </div>
+                  </div>
+              </div>
+              <!-- <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a> -->
+          </footer>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <!-- <div class="footer-above"> -->
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p> ..
+                            <br>Nashville, TN 37205</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; JuanJobRodriguez. 2016   🎏
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Evidence Care</h2>
+                            <hr class="star-primary">
+                            <p>Web and mobile responsive application for doctors, nurses, that helps them make more quickly diagnose and prescriptions. 🏥</p>
+                            <hr>
 
 
-</ul></div></div></div><div ng-view class="container-fluid"></div></body><!--Project Dependencies--><script src="bower_components/angular/angular.js"></script><script src="bower_components/angular-route/angular-route.min.js"></script><script src="bower_components/jquery/dist/jquery.js"></script><script src="bower_components/jquery-waypoints/waypoints.min.js"></script><script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script><!--Angular Files--><script src="index.js"></script><script src="home/home.js"></script>
+                            <!-- <img src="img/portfolio/EVIDENCEcare.png" class="img-responsive img-centered" alt="Evidence Care image"> -->
+                            <img src="img/ecGIFmobileRes.gif" class="img-responsive img-centered" alt="Evidence Care image" style="margin-bottom: 3em; margin-top: 3em;">
+                            <p>Mobile view </p>
+                            <hr>
+                            <!-- <img src="img/ecform.png" class="img-responsive img-centered" alt="Evidence Care image"> -->
+                            <img src="img/ecsmallScreen.png" class="img-responsive img-centered" alt="Evidence Care image" width="328" height="328" style="margin-bottom: 3em; margin-top: 1em;">
+
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://evidence.care">Evidence Care </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">May-Oct 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Responsive Web Development, React.js, JSX, Javascript, ES6, Ramda.js, HTML, CSS3, SASS, UI/UX.</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Groups360</h2>
+                            <hr class="star-primary">
+                            <p>Web and mobile responsive application for hotels and event planners worldwide </p>
+                            <hr>
+                            <img src="img/portfolio/propertiesresultGS.png" class="img-responsive img-centered" alt="">
+                            <hr>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://groups360.com/">Groups360</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Feb 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development, Angualr.js, Sass, CSS3, Jade, Javascript, ES6, UI/UX.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Paul Tripp</h2>
+                            <hr class="star-primary">
+                            <p>Web and mobile responsive for a Paul Tripp event 🗣</p>
+                            <hr>
+                            <img src="img/portfolio/paulTripf.gif" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://peaceinthe.city">Peace In the City</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Dicember 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Mobile first Web Development, HTML5, CSS3, BootStrap, UI/UX.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Visa Port</h2>
+                            <hr class="star-primary">
+                            <a target="_blank" href="http://port.juanjob.info">
+                              <img src="img/portfolio/VISAport.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>An application that makes it easier for you to travel the world.🌍</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://port.juanjob.info">Visa Port</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Dicember 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Link:
+                                    <strong><a target="_blank" href="http://port.juanjob.info">Go!</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development, Angular.js app with a Node api and MongoDB, UI/UX.
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Flappy Cupcake</h2>
+                            <hr class="star-primary">
+                            <a target="_blank" href="http://juanjob.info/flappy/">
+                              <img src="img/portfolio/flappy.gif" class="img-responsive img-centered" alt="Flappy cupcake img link" width="428" height="428" style="margin-bottom: 3em; margin-top: 1em;">
+                            </a>
+                            <p>Flappy Cupcake: An easy, fun game meant to pay tribute to the 'Flappy Bird' application 🕹</p>
+                            <hr>
+                            <!-- <img src="img/portfolio/FLAPPYCUPCAKE.png" class="img-responsive img-centered" alt="Flappy cupcake img link"> -->
+
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://juanjob.info/flappy/">Flappy Projects</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Dicember 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development, UI/UX, Phaser.js game
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>

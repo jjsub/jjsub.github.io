@@ -1,0 +1,34 @@
+{
+  "name": "juanjob.github.io",
+  "version": "1.0.0",
+  "description": "A profolio website made and managed by Juan Job Rodriguez" ,
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjsub.github.io.git"
+  },
+  "author": "Juan Job Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjsub/juanjob.github.io/issues"
+  },
+  "homepage": "https://github.com/jjsuv/juanjob.github.io",
+  "dependencies": {
+    "connect": "^3.3.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jade": "^0.13.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^0.8.1",
+    "grunt-shell": "^1.1.1",
+    "jshint-stylish": "^1.0.0",
+    "morgan": "^1.4.1",
+    "serve-static": "^1.7.1"
+  }
+}
