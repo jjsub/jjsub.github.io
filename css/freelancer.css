@@ -103,6 +103,11 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+@media (max-width: 320px) {
+  .small-screen-img {
+    margin-top: 1em;
+  }
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
