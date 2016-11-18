@@ -103,7 +103,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 331px) {
   .small-screen-img {
     margin-top: 1em;
   }
