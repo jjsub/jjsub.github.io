@@ -514,12 +514,12 @@ fieldset[disabled] .btn-success.active {
   line-height: 2em;
 }
 .fade-class {
-  animation: fadein 1s;
-  -moz-animation: fadein 1s;
+  animation: fadein 0.75s;
+  -moz-animation: fadein 0.75s;
   /* Firefox */
-  -webkit-animation: fadein 1s;
+  -webkit-animation: fadein 0.75s;
   /* Safari and Chrome */
-  -o-animation: fadein 1s;
+  -o-animation: fadein 0.75s;
   /* Opera */
 }
 @keyframes fadein {
