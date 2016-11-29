@@ -513,7 +513,7 @@ fieldset[disabled] .btn-success.active {
   font-weight: 300;
   line-height: 2em;
 }
-.fade-class {
+.fade-modal {
   animation: fadein 0.75s;
   -moz-animation: fadein 0.75s;
   /* Firefox */
